@@ -1,0 +1,46 @@
+{
+  "name": "mongoose-express-session-store",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A store engine for express-session which uses Mongoose as backend.",
+  "main": "index.js",
+  "scripts": {
+    "test": "DEBUG='test' node ./test/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NealRame/mongoose-express-session-store.git"
+  },
+  "keywords": [
+    "mongodb",
+    "mongoose",
+    "express",
+    "express-session",
+    "store"
+  ],
+  "author": "Neal.Rame. <contact@nealrame.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NealRame/mongoose-express-session-store/issues"
+  },
+  "homepage": "https://github.com/NealRame/mongoose-express-session-store",
+  "devDependencies": {
+    "body-parser": "~1.0.0",
+    "cookie-parser": "~1.0.1",
+    "express": "^4.8.7",
+    "express-session": "^1.7.6",
+    "mongoose": "^3.8.15",
+    "morgan": "~1.0.0",
+    "underscore": "^1.7.0"
+  },
+  "peerDependencies": {
+    "cookie-parser": "~1.0.1",
+    "express": "^4.8.7",
+    "express-session": "^1.7.6",
+    "mongoose": "^3.8.15",
+    "underscore": "^1.7.0"
+  },
+  "dependencies": {
+    "debug": "^1.0.4"
+  }
+}
